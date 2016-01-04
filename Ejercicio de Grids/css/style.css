@@ -31,6 +31,10 @@ body {
   border: solid;
 
 }
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 h1 {
   text-align: center;
@@ -38,11 +42,11 @@ h1 {
 }
 
 .social-media {
-  margin: 10px 0 0 73px;
-  height: 210px;
+  margin: 10px 0 0 43px;
+
   margin-bottom: 20px;
   display: block;
-  float: left;
+
   padding: 15px 5px 20px;
   color: white;
   font-family: helvetica, sans-serif;
@@ -111,22 +115,23 @@ h1 {
 
 @media only screen and (max-width: 400px) {
   body {
-    width: 505px;
+
     margin: 0 auto;
     margin-top: 20px;
   }
   .main-content {
-    width: 400px;
-    height: 795px;
-    margin-bottom: 40px;
+
+
   }
   .social-media {
-    margin: 10px 0 0 73px;
+    margin: 10px 0 0 43px;
     width: 210px;
-    height: 200px;
     padding: 15px 5px 20px;
     color: white;
     font-family: helvetica, sans-serif;
+  } 
+  .last{
+    margin-bottom: 25px;
   }
   .facebook {
     background-color: #27782d;
