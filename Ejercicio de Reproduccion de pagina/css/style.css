@@ -103,15 +103,15 @@ body {
   padding: 10px 25px;
   font-size: 14px;
 }
+.btn-group:hover {
+  opacity: 0.5;
+}
 
 .a-btn-group {
   text-decoration: none;
   color: white;
 }
 
-.btn-group:hover {
-  opacity: 0.5;
-}
 
 
 /*NAVIGATION HEADER*/
@@ -155,18 +155,18 @@ body {
   font-weight: 600;
 }
 
-.h1-title {
+.title {
   font-size: 36px;
   line-height: 1.5em;
   text-align: left;
   padding-top: 13px;
 }
 
-.h1-samall {
+.title-samall {
   font-size: 25px;
 }
 
-.h2-subtitle {
+.subtitle {
   font-size: 15px;
   line-height: 1.6em;
   text-align: left;
