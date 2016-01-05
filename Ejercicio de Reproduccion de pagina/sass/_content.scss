@@ -1,0 +1,150 @@
+.main-content {
+  min-height: 614px;
+}
+
+.container .columns-row {
+  margin-top: 50px;
+}
+
+.columns {
+  margin-bottom: 30px;
+  margin-top: 22px;
+}
+
+.columns-article {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.img-group {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 343px;
+  height: 305px;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+/*BUTTONS*/
+
+.btn {
+  border: none;
+  text-decoration: none;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: auto;
+}
+
+.btn-group {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px 25px;
+  font-size: 14px;
+  .a-btn-group {
+  text-decoration: none;
+  color: white;
+  }
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.a-btn-group {
+  text-decoration: none;
+  color: white;
+}
+
+/* TEXTS*/
+.h {
+  color: #666666;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.5em;
+  text-align: left;
+  padding-top: 13px;
+}
+
+.title-samall {
+  font-size: 25px;
+}
+
+.subtitle {
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: left;
+  border-bottom: 1px solid #C8C8C8;
+  margin-top: 7px;
+  padding-bottom: 18px;
+}
+
+.title-date {
+  font-size: 14px;
+  line-height: 1.3em;
+  text-align: left;
+  margin-bottom: 8px;
+  padding-top: 3px;
+}
+
+.title-group {
+  font-size: 22px;
+  line-height: 1.3em;
+  color: #CC3333;
+  text-align: left;
+  margin-bottom: 6px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.title-article {
+  font-size: 22px;
+  line-height: 1.3em;
+  color: #CC3333;
+  text-align: left;
+  margin-top: 26px;
+  padding-bottom: 5px;
+  margin-bottom: 13px;
+}
+
+.text-box {
+  font: 14px/30px 'Raleway', sans-serif;
+}
+
+.content-box {
+  background: #ededed;
+  border: 1px solid #c8c8c8;
+  color: red;
+  padding: 48px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.box-border {
+  border-top: 1px solid #c8c8c8;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1140px;
+  min-width: 755px;
+  width: 100%;
+
+  .content-columns {
+    width: 30.75%;
+  }
+}
+
+.content-columns {
+  margin-right: 3.8%;
+  float: left;
+  min-height: 1px;
+}
+
+.last {
+  margin-right: 0px;
+}
